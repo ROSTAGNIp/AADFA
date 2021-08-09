@@ -1,6 +1,5 @@
 .pmains{
-  max-height: 1000px;
-  max-width: 100%;
+ 
   margin-bottom: 10px;
   margin-top: 10px;
   background: linear-gradient(0deg, rgba(115,162,195,1) 0%, rgba(187,194,213,1) 100%);
@@ -75,7 +74,8 @@ img{
 }
 
 .footer{
-  height: 300px;
+  height: 400px;
+  box-sizing: content-box;
 }
 
 .icons{
@@ -99,8 +99,22 @@ img{
 }
 
 .icons li:nth-child(1){
-background-color: #3b5999;
+background-color: #3B5998;
 }
+
+.icons li:nth-child(2){
+  background-color: #1DA1F2;
+  }
+
+  .icons li:nth-child(3){
+    background-color: #007BB5;
+    }
+
+    .icons li:nth-child(4){
+      background-color: #C32AA3;
+  
+      }  
+
 
 .icons li:hover{
   transform: translateY(-8px);
