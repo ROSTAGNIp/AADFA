@@ -5,9 +5,15 @@
   background: linear-gradient(0deg, rgba(115,162,195,1) 0%, rgba(187,194,213,1) 100%);
   overflow: hidden;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  width: 100%;
+   }
+
+.pmains img{
+  object-fit: contain;
+  color:blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1{
