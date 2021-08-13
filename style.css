@@ -9,12 +9,9 @@
    }
 
 .pmains img{
-  object-fit: contain;
-  color:blue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  object-fit: cover;
 }
+  
 
 h1{
   color: white;
