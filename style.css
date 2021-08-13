@@ -154,7 +154,7 @@ img{
 @media screen and (max-width: 360px){
   .pmains{
     max-width: 360px;
-    height: auto;
+    max-height: 400px;
   }
 }
 
